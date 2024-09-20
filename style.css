@@ -1,0 +1,82 @@
+
+html, body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url(https://media.istockphoto.com/id/1987737382/photo/golden-sunrise-over-arves-massif-with-lonely-tree-relfection-on-lac-guichard-at-french-alps.jpg?s=2048x2048&w=is&k=20&c=_tjMz25xjsvXWbH13JGbJ-FPNvOCs3XFhN5_Jc0k56g=);
+    min-height: 100%;
+    
+}
+
+.pimg2{
+    background-image: url(https://media.istockphoto.com/id/1437741946/photo/young-man-riding-on-the-back-of-an-elephant-at-beautiful-sunrise-in-the-morning-for-working.jpg?s=2048x2048&w=is&k=20&c=S7uSiJxhs8RgRLJCNcF-weig1Ny_3ACP2r177LDH0pI=);
+    min-height: 400px;
+    
+}
+
+.pimg3{
+    background-image: url(https://media.istockphoto.com/id/1273830114/photo/daisy-flower-in-meadow-flowering-spring-flower-beatiful-nature.jpg?s=2048x2048&w=is&k=20&c=Riqj2yn1Wsb6LtOjC4KrF3nS1Q0nsRIpMPSWOryy0XY=);
+    min-height: 400px;
+    
+}
+
+.pimg4{
+    background-image: url(https://media.istockphoto.com/id/1060933676/photo/fall-wonderland.jpg?s=2048x2048&w=is&k=20&c=xpaBwHM3LCuKSoFkIRL5jzvwG99yk1MYKlAoC0Tf2CI=);
+    min-height: 100%;
+    
+}
+
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.tetxBg{
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+
